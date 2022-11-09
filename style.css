@@ -1,0 +1,119 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+p{
+    text-align: justify;
+}
+.flexible-container{
+    display: flex;
+    
+}
+.half-width{
+    width: 50%;
+    
+    
+    
+}
+.half-width img{
+    width: 50%;
+    margin-left: 100px;
+    
+
+}
+.heading{
+    margin-top: 60px;
+   
+}
+.orange-color{
+    color: orange;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius:5px;
+}
+#full-stack{
+   
+    border-left: 4px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+.top-banner{
+    margin-left: 10%;
+    margin-bottom: 80px;
+}
+.mission-year{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.card{
+    width: 30%;
+    height: 470px;
+    margin-left: 3%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px black;
+    margin-right: 3%;
+    text-align: justify;
+}
+.illsutrate{
+    width: 150px;
+}
+.card-section{
+    margin-bottom: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.card-one{
+    background-color:rgb(209, 239, 240);
+}
+.card-two{
+    background-color: rgb(240, 223, 226);
+}
+.card-three{
+    background-color: rgb(243, 227, 207);
+}
+
+
+
+.develop-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px 200px;
+    margin-left: 5%;
+    margin-bottom: 150px;
+    margin-right: 10%;
+    
+   
+}
+.community-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:950px 190px;
+    background-size: 180px 180px;
+    margin-left: 10%;
+    height: 500px;
+    
+    margin-right: 10%;
+
+}
+.community-image{
+    padding-bottom: 40px;
+    padding-left: 50px;
+}
+.end-section{
+    background-image: url(images/shapes/shape-3.png), url(images/shapes/shape-3.png);
+    background-repeat: no-repeat no-repeat;
+    background-position: 50px 100px, 330px 500px;
+    background-size: 150px 150px, 90px 90px;
+    margin-left: 5%;
+    margin-bottom: 150px;
+    margin-right: 10%;
+    
+   
+}
